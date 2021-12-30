@@ -1,0 +1,166 @@
+.work {
+    background: linear-gradient(black 20%, rgba(14, 14, 14, 0.1) 50%, black 80%), url(../img/fon4.jpg);
+    background-size: cover;
+}
+.workladder {
+    display: flex;
+}
+.work .whiteline {
+    width: 65%;
+}
+.leftladder {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 103px 131px 131px 131px 131px 131px 131px 131px 113px;
+    -ms-grid-template-columns: auto;
+    -ms-grid-template-rows: 103px 131px 131px 131px 131px 131px 131px 131px 113px;
+    text-align: right;
+}
+.leftladder .one {
+    grid-row: 2 / 3;
+    -ms-grid-row: 2 / 3;
+    padding-top: 6px;
+}
+.leftladder .two {
+    grid-row: 4 / 5;
+    -ms-grid-row: 4 / 5;
+    padding-top: 25px;
+}
+.leftladder .three {
+    grid-row: 6 / 7;
+    -ms-grid-row: 6 / 7;
+    padding-top: 37px;
+}
+.leftladder .four {
+    grid-row: 8 / 9;
+    -ms-grid-row: 8 / 9;
+    padding-top: 70px;
+}
+.rightladder {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 70px 171px 131px 131px 131px 131px 131px 131px 136px;
+    -ms-grid-template-columns: auto;
+    -ms-grid-template-rows: 70px 171px 131px 131px 131px 131px 131px 131px 136px;
+}
+.rightladder .one {
+    grid-row: 1 / 2;
+    -ms-grid-row: 1 / 2;
+    padding-top:-10px;
+}
+.rightladder .two {
+    grid-row: 3 / 4;
+    -ms-grid-row: 3 / 4;
+}
+.rightladder .three {
+    grid-row: 5 / 6;
+    -ms-grid-row: 5 / 6;
+    padding-top: 27px;
+}
+.rightladder .four {
+    grid-row: 7 / 8;
+    -ms-grid-row: 7 / 8;
+    padding-top: 35px;
+}
+.rightladder .five {
+    grid-row: 9 / 10;
+    -ms-grid-row: 9 / 10;
+    padding-top: 50px;
+}
+.one, .two, .three, .four, .five {
+    padding: 0 36px;
+    align-self: center;
+}
+
+
+@media screen and (max-width : 1769px) {
+    .work {
+        padding-left: 250px;
+        padding-right: 250px;
+    }
+}
+@media screen and (max-width : 1400px) {
+    .work {
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+    .work img {
+        width: 200px;
+    }
+    .leftladder {
+        grid-template-rows: 79px 131px 85px 131px 85px 131px 88px 131px 88px;
+        -ms-grid-template-rows: 79px 131px 85px 131px 85px 131px 88px 131px 88px;
+    }
+    .rightladder {
+        grid-template-rows: 70px 143px 85px 130px 92px 135px 85px 116px 136px;
+        -ms-grid-template-rows: 70px 143px 85px 130px 92px 135px 85px 116px 136px;
+    }
+}
+@media screen and (max-width : 1202px) {
+    .work {
+        padding-left: 170px;
+        padding-right: 170px;
+    }
+    .work p {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width : 1142px) {
+    .work {
+        padding-left: 130px;
+        padding-right: 130px;
+    }
+}
+@media screen and (max-width : 1062px) {
+    .work {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+}
+@media screen and (max-width : 962px) {
+    .work {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+@media screen and (max-width : 946px) {
+    .work img {
+        width: 120px;
+    }
+    .leftladder {
+        grid-template-rows: 45px 85px 65px 58px 85px 57px 80px 57px 80px;
+        -ms-grid-template-rows: 45px 85px 65px 58px 85px 57px 80px 57px 80px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 15px;
+    }
+    .rightladder {
+        grid-template-rows: 45px 85px 65px 58px 85px 57px 80px 57px 80px;
+        -ms-grid-template-rows: 45px 85px 65px 58px 85px 57px 80px 57px 80px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-left: 15px;
+        padding-right: 0px;
+    }
+    .leftladder .one, .leftladder .two, .leftladder .three, .leftladder .four, .leftladder .five, .rightladder .one, .rightladder .two, .rightladder .three, .rightladder .four, .rightladder .five {
+        padding: 0;
+    }
+}
+@media screen and (max-width : 556px) {
+    .work h2 {
+        font-size: 32px;
+    }
+    .work p {
+        font-size: 10px;
+    }
+}
+@media screen and (max-width : 352px) {
+    .work img {
+        width: 105px;
+    }
+    .leftladder, .rightladder {
+        grid-template-rows: 39px 74px 57px 51px 74px 50px 70px 50px 70px;
+        -ms-grid-template-rows: 39px 74px 57px 51px 74px 50px 70px 50px 70px;
+    }
+}

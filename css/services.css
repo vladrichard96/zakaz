@@ -1,0 +1,115 @@
+.services h2, h3, li {
+    color: white;
+}
+.services {
+    background-color: #0d0d0d;
+    padding-bottom: 60px;
+}
+.services .whiteline {
+    width: 65%;
+}
+.servicetask {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 47px;
+}
+.task {
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    background: black;
+    box-shadow: 0 0 20px rgba(0, 60, 100, 0.8);
+    padding: 30px 40px;
+    width: 224px;
+}
+.taskh {
+    display: flex;
+    align-items: center;
+}
+.taskh img {
+    width: 41px;
+    height: 41px;
+    filter: invert(100%) sepia(0%) saturate(4615%) hue-rotate(196deg) brightness(101%) contrast(108%);
+    padding-right: 27px;
+}
+.taskh h3 {
+    font-weight: 900;
+}
+.taskli li {
+    font-size: 14px;
+}
+.taskli ul {
+    padding-left: 20px;
+}
+
+
+@media screen and (max-width : 1769px) {
+    .services {
+        padding-left: 250px;
+        padding-right: 250px;
+    }
+}
+@media screen and (max-width : 1456px) {
+    .services .task {
+        padding: 30px 30px;
+    }
+}
+@media screen and (max-width : 1400px) {
+    .services {
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+    .services .task {
+        padding: 20px 20px;
+    }
+    .taskh h3 {
+    font-weight: 700;
+    font-size: 16px;
+    }
+    .taskh img {
+    padding-right: 18px;
+    }
+    .taskli li {
+    font-size: 12px;    
+    }
+}
+@media screen and (max-width : 1202px) {
+    .services {
+        padding-left: 170px;
+        padding-right: 170px;
+    }
+    .services .task {
+        padding: 10px 10px;
+    }
+    .taskh img {
+    padding-right: 9px;
+    }
+}
+@media screen and (max-width : 1142px) {
+    .services {
+        padding-left: 130px;
+        padding-right: 130px;
+    }
+}
+@media screen and (max-width : 1062px) {
+    .services {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+}
+@media screen and (max-width : 962px) {
+    .services {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+@media screen and (max-width : 856px) {
+    .servicetask {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .task {
+        margin-bottom: 25px;
+    }
+}

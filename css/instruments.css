@@ -1,0 +1,104 @@
+.instruments {
+    background-color: black;
+}
+
+.instruments h2 {
+    color: white;
+}
+.instruments img {
+    filter: invert(100%) sepia(0%) saturate(4615%) hue-rotate(196deg) brightness(101%) contrast(108%);
+}
+.instruments .whiteline {
+    width: 65%;
+}
+.gridinstruments {
+    display: grid;
+    grid-template-columns: repeat(6, 200px);
+    -ms-grid-template-columns: repeat(6, 200px);
+    align-items: center;
+    justify-content: space-between;
+    padding: 75px 0px;
+}
+.gridinstruments img {
+    width: 120px;
+    padding: 40px 0px;
+}
+.gridinstruments .bigimg {
+    height: 120px;
+}
+.gridinstruments div:nth-child(2), .instruments div:nth-child(4), .instruments div:nth-child(6), .instruments div:nth-child(7), .instruments div:nth-child(9), .instruments div:nth-child(11){
+    filter: invert(49%) sepia(30%) saturate(3880%) hue-rotate(195deg) brightness(100%) contrast(90%)
+}
+
+
+@media screen and (max-width : 1769px) {
+    .instruments {
+        padding-left: 250px;
+        padding-right: 250px;
+    }
+}
+@media screen and (max-width : 1630px) {
+    .gridinstruments {
+        grid-template-columns: repeat(6, 150px);
+        -ms-grid-template-columns: repeat(6, 150px);
+    }
+    .gridinstruments img {
+    width: 90px;
+    padding: 30px 0px;
+    }
+.gridinstruments .bigimg {
+    height: 90px;
+    }
+}
+@media screen and (max-width : 1400px) {
+    .instruments {
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+}
+@media screen and (max-width : 1202px) {
+    .instruments {
+        padding-left: 170px;
+        padding-right: 170px;
+    }
+}
+@media screen and (max-width : 1142px) {
+    .instruments {
+        padding-left: 130px;
+        padding-right: 130px;
+    }
+}
+@media screen and (max-width : 1062px) {
+    .instruments {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+    .gridinstruments {
+        grid-template-columns: repeat(6, 100px);
+        -ms-grid-template-columns: repeat(6, 100px);
+    }
+    .gridinstruments img {
+    width: 60px;
+    padding: 20px 0px;
+    }
+.gridinstruments .bigimg {
+    height: 60px;
+    }
+}
+@media screen and (max-width : 962px) {
+    .instruments {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+@media screen and (max-width : 643px) {
+    .gridinstruments {
+        grid-template-columns: repeat(3, 100px);
+        -ms-grid-template-columns: repeat(3, 100px);
+    }
+}
+@media screen and (max-width : 353px) {
+    .instruments h2 {
+        font-size: 36px;
+    }
+}

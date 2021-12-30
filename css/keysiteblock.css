@@ -1,0 +1,122 @@
+.keysiteblock {
+    background-blend-mode: multiply;
+    background-image: url(../img/fon2.jpg);
+    background-size: cover;
+    background-color: rgba(20, 20, 20, 0.5);
+    padding-bottom: 80px;
+}
+.keysiteblock .whiteline {
+    width: 80%;
+}
+.keysiteblock h2, h4, p {
+    color: white;
+}
+.keysiteblock h4 {
+    font-size: 24px;
+    font-weight: 300;
+}
+.column h5 {
+    color: #428DF1;
+    margin-top: 0px;
+}
+.keysiteblock1 {
+    display: flex;
+    padding-top: 60px;
+}
+.gridpic {
+    display: grid;
+    grid-template-columns: 290px 290px;
+    grid-template-rows: 380px 380px;
+    grid-gap: 18px;
+    -ms-grid-template-columns: 290px 290px;
+    -ms-grid-template-rows: 380px 380px;
+    -ms-grid-gap: 18px;
+    -o-grid-gap: 18px;
+}
+.gridpic img {
+    width: 290px;
+    height: 380px;
+}
+.column {
+    padding-left: 60px;
+}
+
+
+
+@media screen and (max-width : 1769px) {
+    .keysiteblock {
+        padding-left: 250px;
+        padding-right: 250px;
+    }
+}
+@media screen and (max-width : 1539px) {
+    .keysiteblock1 {
+    display: flex;
+    flex-direction: column;
+    }
+    .gridpic {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+        grid-template-rows: repeat(auto-fit, minmax(90px, 400px));
+        -ms-grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+        -ms-grid-template-rows: repeat(auto-fit, minmax(90px, 400px));
+    }
+    .column {
+        padding-left: 0px;
+    }
+    .column h5 {
+        margin-top: 77px;
+    }
+}
+@media screen and (max-width : 1400px) {
+    .keysiteblock {
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+}
+@media screen and (max-width : 1202px) {
+    .keysiteblock {
+        padding-left: 170px;
+        padding-right: 170px;
+    }
+}
+@media screen and (max-width : 1142px) {
+    .keysiteblock {
+        padding-left: 130px;
+        padding-right: 130px;
+    }
+}
+@media screen and (max-width : 1062px) {
+    .keysiteblock {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+}
+@media screen and (max-width : 962px) {
+    .keysiteblock {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .gridpic {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+        grid-template-rows: repeat(auto-fit, minmax(90px, 400px));
+        -ms-grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+        -ms-grid-template-rows: repeat(auto-fit, minmax(90px, 400px));
+    }
+}
+@media screen and (max-width : 677px) {
+    .gridpic {
+        justify-items: center;
+    }
+}
+@media screen and (max-width : 476px) {
+    .column h5 {
+        font-size: 32px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .column p {
+        font-size: 12px;
+    }
+}

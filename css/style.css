@@ -1,0 +1,50 @@
+@charset UTF-8;
+
+@font-face {
+    font-family: 'Calibri';
+    font-weight: normal;
+    src: url(../fonts/8277.ttf);
+}
+
+body {
+    font-family:Calibri;
+    font-style:normal;
+}
+
+h2, p {
+    margin: 0;
+    color: white;
+}
+h1 {
+    font-size: 72px;
+    font-weight: 900;
+}
+h2 {
+    font-size: 44px;
+    font-weight: 700;
+    padding-bottom: 30px;
+    padding-top: 47px;
+}
+h5 {
+    font-size: 46px;
+    font-weight: 100;
+}
+p {
+    font-size: 24px;
+}
+.header {
+    padding-top: 45px;
+    padding-left: 275px;
+    padding-right: 275px;
+}
+.footer {
+    padding-bottom: 60px;
+}
+.services, .instruments, .keysiteblock, .crew, .discuss, .portfolio, .advantages, .work, .fon3 {
+    padding-left: 275px;
+    padding-right: 275px;
+}
+hr {
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+}
