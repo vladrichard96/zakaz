@@ -1,0 +1,205 @@
+.advantages {
+    background-color: black;
+}
+.advantages img {
+    filter: invert(45%) sepia(94%) saturate(1398%) hue-rotate(195deg) brightness(97%) contrast(95%);
+    width: 80px;
+    height: 50px;
+}
+.advantages .whiteline {
+    width: 35%;
+    justify-content: flex-start;
+}
+.complexgrid {
+    display: grid;
+    grid-template-areas: 
+        "a b c"
+        "d e f";
+    -ms-grid-template-areas: 
+        "a b c"
+        "d e f";
+    grid-gap: 25px 50px;
+    -ms-grid-gap: 25px 50px;
+    -o-grid-gap: 25px 50px;
+    margin-top: -10px;
+}
+.advitem {
+    padding: 25px 20px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+.advitem p {
+    font-size: 18px;
+    text-align: center;
+}
+.advitem h3 {
+    font-size: 26px;
+}
+.advitem:nth-child(4), .advitem:nth-child(5), .advitem:nth-child(6) {
+    padding-bottom: 40px;
+}
+.advitem:nth-child(1), .advitem:nth-child(2), .advitem:nth-child(3) {
+    padding-top: 40px;
+}
+.advitem:nth-child(3) {
+    border-right: 1px solid #428df1;
+    border-top: 1px solid #428df1;
+    box-shadow: 4px -5px 7px -2px #428df1;
+}
+.advitem:nth-child(4) {
+    border-left: 1px solid #428df1;
+    border-bottom: 1px solid #428df1;
+    box-shadow: -4px 5px 7px -2px #428df1;
+}
+
+
+
+@media screen and (max-width : 1769px) {
+    .advantages {
+        padding-left: 250px;
+        padding-right: 250px;
+    }
+    .advitem p {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width : 1645px) {
+    .advitem p {
+        font-size: 14px;
+    }
+    .advitem h3 {
+        font-size: 22px;
+    }
+    .complexgrid {
+        grid-gap: 20px 40px;
+        -ms-grid-gap: 20px 40px;
+        -o-grid-gap: 20px 40px;
+    }
+}
+@media screen and (max-width : 1508px) {
+    .advitem p {
+        font-size: 12px;
+    }
+    .advitem h3 {
+        font-size: 18px;
+    }
+    .complexgrid {
+        grid-gap: 20px 20px;
+        -ms-grid-gap: 20px 20px;
+        -o-grid-gap: 20px 20px;
+    }
+    .advitem:nth-child(1), .advitem:nth-child(2), .advitem:nth-child(3) {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    }
+    .advitem:nth-child(4), .advitem:nth-child(5), .advitem:nth-child(6) {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    }
+    .advitem {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+@media screen and (max-width : 1400px) {
+    .advantages {
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+    .advitem:nth-child(1), .advitem:nth-child(2), .advitem:nth-child(3) {
+    padding-bottom: 10px;
+    }
+    .advitem:nth-child(4), .advitem:nth-child(5), .advitem:nth-child(6) {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    }
+    .complexgrid {
+        grid-gap: 10px 10px;
+        -ms-grid-gap: 10px 10px;
+        -o-grid-gap: 10px 10px;
+    }
+}
+@media screen and (max-width : 1202px) {
+    .advantages {
+        padding-left: 170px;
+        padding-right: 170px;
+    }
+    .complexgrid {
+        grid-gap: 0px 0px;
+        -ms-grid-gap: 0px 0px;
+        -o-grid-gap: 0px 0px;
+    }
+    .advitem h3 {
+        margin: 10px 0px;
+    }
+}
+@media screen and (max-width : 1142px) {
+    .advantages {
+        padding-left: 130px;
+        padding-right: 130px;
+    }
+    .advitem p {
+        font-size: 10px;
+    }
+    .advitem h3 {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width : 1062px) {
+    .advantages {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+}
+@media screen and (max-width : 962px) {
+    .advantages {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .advitem p {
+        font-size: 8px;
+    }
+    .advitem h3 {
+        font-size: 14px;
+        margin: 0px 0px;
+    }
+    .advitem img {
+        width: 60px;
+        height: 35px;
+    }
+}
+@media screen and (max-width : 643px) {
+    .advitem:nth-child(1), .advitem:nth-child(2), .advitem:nth-child(3) {
+    padding-top: 10px;
+    }
+    .advitem:nth-child(3), .advitem:nth-child(4) {
+        border-right: 0px;
+        border-top: 0px;
+        border-left: 0px;
+        border-bottom: 0px;
+        box-shadow: 0px 0px 0px 0px;
+    }
+    .complexgrid { 
+        grid-template-areas: 
+        "a b"
+        "c d"
+        "e f";
+        -ms-grid-template-areas: 
+        "a b"
+        "c d"
+        "e f";
+        margin-top: 15px;
+    }
+}
+@media screen and (max-width : 476px) {
+    .advitem:nth-child(1), .advitem:nth-child(2), .advitem:nth-child(3), .advitem:nth-child(4), .advitem:nth-child(5), .advitem:nth-child(6) {
+    padding: 0px;
+    }
+    .advitem h3 {
+        font-size: 10px;
+    }
+    .advantages h2 {
+        font-size: 36px;
+    }
+}

@@ -1,0 +1,121 @@
+.discuss {
+    background-color: #0d0d0d;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 85px;
+    padding-bottom: 100px;
+}
+.discuss .leftcolumn {
+    display: flex;
+    flex-flow: column;
+    line-height: 30px;
+}
+.leftalign {
+    padding-bottom: 55px;
+}
+.discuss .leftcolumn .centeralign {
+    padding-left: 52px;
+    padding-bottom: 55px;
+}
+.discuss .leftcolumn .rightalign {
+    padding-left: 104px;
+    padding-bottom: 55px;
+}
+.rightcolumn img {
+    width: 504px;
+    height: 510px;
+    padding-left: 40px;
+}
+.leftcolumn .buttons {
+    margin-top: 67px;
+}
+
+
+@media screen and (max-width : 1769px) {
+    .discuss {
+        padding-left: 250px;
+        padding-right: 250px;
+    }
+}
+@media screen and (max-width : 1573px) {
+    .discuss .leftcolumn .centeralign {
+    padding-left: 0px;
+    }
+    .discuss .leftcolumn .rightalign {
+    padding-left: 0px;
+    }
+}
+@media screen and (max-width : 1400px) {
+    .discuss {
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+}
+@media screen and (max-width : 1318px) {
+    .discuss {
+        flex-direction: column-reverse;
+    }
+    .leftcolumn, .rightcolumn {
+        text-align: center;
+    }
+    .leftalign {
+    padding-bottom: 20px;
+    }
+    .discuss .leftcolumn .centeralign {
+    padding-bottom: 20px;
+    }
+    .discuss .leftcolumn .rightalign {
+    padding-bottom: 20px;
+    }
+    .leftcolumn .buttons {
+        margin-top: 30px;
+    }
+    .rightcolumn img {
+        padding-left: 0px;
+        padding-bottom: 20px;
+    }
+}
+@media screen and (max-width : 1202px) {
+    .discuss {
+        padding-left: 170px;
+        padding-right: 170px;
+    }
+}
+@media screen and (max-width : 1142px) {
+    .discuss {
+        padding-left: 130px;
+        padding-right: 130px;
+    }
+}
+@media screen and (max-width : 1062px) {
+    .discuss {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+}
+@media screen and (max-width : 962px) {
+    .discuss {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .rightcolumn img {
+        width: 300px;
+        height: 300px;
+    }
+}
+@media screen and (max-width : 722px) {
+    .rightcolumn img {
+        width: 200px;
+        height: 200px;
+    }
+    .leftcolumn p {
+        font-size: 18px;
+        line-height: 1.3;
+    }
+}
+@media screen and (max-width : 476px) {
+    .leftcolumn p {
+        font-size: 12px;
+        line-height: 1.1;
+    }
+}
